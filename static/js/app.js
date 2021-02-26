@@ -20,17 +20,3 @@ $(".gallery").colorbox({
   }
 });
 
-$(document).bind('cbox_open', function(){
-  $("#cboxOverlay, #colorbox").swipe({
-    swipeLeft:function(event, direction, distance, duration, fingerCount) {
-      $.colorbox.next();
-    },
-    swipeRight:function(event, direction, distance, duration, fingerCount) {
-      $.colorbox.prev();
-    },
-    tap:function(event, target){
-      $.colorbox.close()
-    },
-    excludedElements: $.fn.swipe.defaults.excludedElements + ", #colorbox"
-  }).unbind("click");
-});
