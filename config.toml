@@ -18,9 +18,5 @@ clean_blog_menu = [
     {url = "$BASE_URL/about", name = "About"},
     {url = "$BASE_URL/contact", name = "Contact"}
 ]
-#clean_blog_social = [
-#    {url = "https://twitter.com", icon="fab fa-twitter"},
-#    {url = "$BASE_URL/rss.xml", icon="fas fa-rss"}
-#]
 [markdown]
 highlight_code = true
