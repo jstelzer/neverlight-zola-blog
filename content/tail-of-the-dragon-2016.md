@@ -1,6 +1,6 @@
 +++
 title = "tail-of-the-dragon-2016"
-date = 2021-02-25
+date = 2016-05-09
 template = "tail-of-the-dragon-2016.html"
 +++
 
