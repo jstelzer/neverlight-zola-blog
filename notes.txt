@@ -1,4 +1,0 @@
-https://www.getzola.org/documentation/getting-started/overview/
-
-Use sigal to generate a gallery, then cut it up into a custom template for a specific post page. It will work.... I think.
-
