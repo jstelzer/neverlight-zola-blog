@@ -3,7 +3,6 @@ title = "Sturgis -- 2018"
 date = 2018-08-05
 template = "sturgis-2018.html"
 +++
-
 Photos from my 2018 trip to Sturgis.
 <!-- more -->
 
