@@ -1,4 +1,4 @@
-base_url = "http://moto.neverlight.com/"
+base_url = "https://moto.neverlight.com"
 generate_rss = true
 compile_sass = true
 

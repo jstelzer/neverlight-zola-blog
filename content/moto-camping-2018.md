@@ -1,5 +1,5 @@
 +++
-title = "moto-camping-2018"
+title = "Moto Camping -- 2018"
 date = 2018-05-20
 template = "moto-camping-2018.html"
 +++

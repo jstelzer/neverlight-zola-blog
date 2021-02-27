@@ -1,5 +1,5 @@
 +++
-title = "Sturgis 2018"
+title = "Sturgis -- 2018"
 date = 2018-08-05
 template = "sturgis-2018.html"
 +++

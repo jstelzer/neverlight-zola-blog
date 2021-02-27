@@ -1,5 +1,5 @@
 +++
-title = "midwest 2019"
+title = "Midwest -- 2019"
 date = 2019-08-17
 template = "midwest-2019.html"
 +++

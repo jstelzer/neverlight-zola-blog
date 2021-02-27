@@ -1,5 +1,5 @@
 +++
-title = "tail-of-the-dragon-2016"
+title = "Tail of the Dragon -- 2016"
 date = 2016-05-09
 template = "tail-of-the-dragon-2016.html"
 +++
