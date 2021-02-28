@@ -3,7 +3,7 @@ generate_rss = true
 compile_sass = true
 
 title = "Neverlight"
-description = "Chaos, Discord, Disharmony"
+description = "Motorcycles, Camping, Beer"
 
 theme = "neverlight-theme"
 taxonomies = [
