@@ -27,3 +27,4 @@ Once I sorted out how to mass fix the urls to the media it was very fast and eas
 We'll see how long i stick with it, but so far this is the least annoying setup I've  used.
 
 Right now I'm using the free tier of digitalocean to publish all this. Works well. Minimal effort, good results.
+
