@@ -1,4 +1,4 @@
-base_url = "https://moto.neverlight.com"
+base_url = "https://moto-blog.neverlight.com"
 generate_rss = true
 compile_sass = true
 
@@ -16,6 +16,7 @@ author = "Mental"
 clean_blog_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/about", name = "About"},
+    {url = "$BASE_URL/cats", name = "Cats"},
     {url = "$BASE_URL/contact", name = "Contact"}
 ]
 [markdown]
