@@ -1,5 +1,5 @@
 base_url = "https://moto-blog.neverlight.com"
-generate_rss = true
+generate_feeds = true
 compile_sass = true
 
 title = "Neverlight"
@@ -7,8 +7,8 @@ description = "Motorcycles, Camping, Beer"
 
 theme = "neverlight-theme"
 taxonomies = [
-    {name = "categories", rss = true, paginate_by=5},
-    {name = "tags", rss = true, paginate_by=5},
+    {name = "categories", feed = true, paginate_by=5},
+    {name = "tags", feed = true, paginate_by=5},
 ]
 
 [extra]
@@ -19,5 +19,5 @@ clean_blog_menu = [
     {url = "$BASE_URL/cats", name = "Cats"},
     {url = "$BASE_URL/contact", name = "Contact"}
 ]
-[markdown]
-highlight_code = true
+[markdown.highlighting]
+theme = "catppuccin-mocha"

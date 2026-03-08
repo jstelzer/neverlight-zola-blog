@@ -26,25 +26,15 @@ Once I sorted out how to mass fix the urls to the media it was very fast and eas
 
 We'll see how long i stick with it, but so far this is the least annoying setup I've  used.
 
-Right now I'm using the free tier of digitalocean to publish all this. Works well. Minimal effort, good results.
+## Hosting
 
+Moved from DigitalOcean static hosting to Cloudflare Pages (2026-03).
 
-## notes
+- **Live**: https://moto-blog.neverlight.com
+- **Pages preview**: https://moto-blog.pages.dev
+- **Deploy**: `just deploy`
+- **Domains**: Managed in Cloudflare (moved from Route53/S3)
 
-Lost access to the original DO acct for reasons.
+### History
 
-Created an email backed account and started over.
-
-For mostly dumb reasons my domains are in route53. I used to use amazon for a lot but it got spendy and this is the bare minumum.
-
-Re-updated github access and replaced the cname of moto.neverlight.com which pointed to : neverlight-published-blog-hxge4.ondigitalocean.app.
-
-To point at octopus-app-jj27b.ondigitalocean.app
-
-That didn't work because my old unaccessible account has moto.neverlight.com so i changed the subdomain to moto-blog and moved on.
-
-The neverlight.com s3 bucket has a static hosting policy that redirects to moto-blog.neverlight.com
-
-I completely lost my train of thought WRT the sigal python tool and publishing galleries.
-
-At least at this point I have everything in 1password and mfa is setup.
+Originally on DO free tier with a two-repo publish pattern (rsync build output to a separate published repo, DO auto-deploys from GitHub). Lost access to original DO account, recreated, changed subdomain from `moto` to `moto-blog`. Migrated to Cloudflare Pages to simplify — single command deploy, no intermediate repo.
