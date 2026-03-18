@@ -1,7 +1,12 @@
 +++
 title = "Midwest -- 2019"
+description = "Philadelphia to Artesia, NM in 2 days, then across New Mexico, Arizona, Utah, and Colorado. 115 degrees and worth every mile."
 date = 2019-08-17
 template = "midwest-2019.html"
+
+[taxonomies]
+tags = ["southwest", "new-mexico", "arizona", "utah", "colorado", "solo-ride", "long-distance", "desert"]
+categories = ["trips"]
 +++
 
 My trip out west in august of 2019. 

@@ -1,9 +1,10 @@
 base_url = "https://moto-blog.neverlight.com"
 generate_feeds = true
 compile_sass = true
+feed_filenames = ["atom.xml", "rss.xml"]
 
-title = "Neverlight"
-description = "Motorcycles, Camping, Beer"
+title = "Neverlight Moto Blog"
+description = "Long-distance motorcycle touring, moto camping, and rally stories from the road."
 
 theme = "neverlight-theme"
 taxonomies = [
@@ -17,7 +18,8 @@ clean_blog_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/about", name = "About"},
     {url = "$BASE_URL/cats", name = "Cats"},
-    {url = "$BASE_URL/contact", name = "Contact"}
+    {url = "$BASE_URL/contact", name = "Contact"},
+    {url = "$BASE_URL/tags", name = "Tags"},
 ]
 [markdown.highlighting]
 theme = "catppuccin-mocha"

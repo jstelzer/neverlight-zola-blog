@@ -1,7 +1,12 @@
 +++
 title = "Grand Canyon of PA -- 2019"
+description = "Weekend ride to Pennsylvania's Grand Canyon and Centralia — the town above an underground mine fire burning since 1962."
 date = 2019-11-02
 template = "grand-canyon-pa-2019.html"
+
+[taxonomies]
+tags = ["pennsylvania", "centralia", "grand-canyon-pa", "weekend-ride"]
+categories = ["trips"]
 +++
 
 Our last trip to the Grand Canyon of PA and Centralia.

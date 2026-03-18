@@ -1,7 +1,12 @@
 +++
 title = "Pandemic -- 2020"
+description = "Local rides, solo camping, and a feral kitten rescue during lockdown. Keeping the wheels turning when the world stopped."
 date = 2021-02-25
 template = "pandemic-2020.html"
+
+[taxonomies]
+tags = ["pandemic", "local-rides", "solo-camping", "cats"]
+categories = ["trips"]
 +++
 The pandemic had me mostly doing local stuff, avoiding crowds and generally being antisocial. Suits me.
 <!-- more -->

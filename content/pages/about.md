@@ -1,21 +1,14 @@
 +++
 title = "About"
+description = "Long-distance motorcycle touring, moto camping, and rally stories from outside Philadelphia."
 path = "about"
 template = "about.html"
 +++
 
-I'm an internet vandal, lone rider, boring person.
+I'm a software engineer by trade and a long-distance motorcycle rider by choice. Based outside Philadelphia. Happily married, father to cats.
 
-But if you're interested in how I built this, you'll want to [get zola][zola]. You can see [how i used it][neverlight-zola-blog] .
-And lastly, have a look at [the sigal python gallery generator][sigal]. 
+I ride solo and with friends — rallies, back roads, camping, cross-country trips. Sturgis, Laconia, Tail of the Dragon, the desert Southwest. I grew up in Vermont, so New England roads feel like home, but I'll ride anywhere the road goes.
 
-I've tried lots of ways to do this blog. But in the last few days I have published more content than I have... pretty much ever.
+This blog is where the trip photos and stories end up. I'm not a photographer — I'm a guy with a phone on a motorcycle. But the places are real and the miles are real, and sometimes the pictures turn out OK.
 
-So I'm all in on zola and static site generation. At this point I have a nice little flow for jamming out content albums.
-
-Now, it should be obvious I'm not a photographer or web designer. I'm a motorcycle enthusiast, father to cats, happily married dude. I just
-want to post cool pics of stuff I've done and things I've seen that I had fun doing.
-
-[zola]: https://www.getzola.org/
-[neverlight-zola-blog]: https://github.com/jstelzer/neverlight-zola-blog
-[sigal]: http://sigal.saimon.org/en/latest/
+When I'm not riding I build [backend systems and platform infrastructure](https://www.neverlight.com).

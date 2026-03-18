@@ -1,13 +1,24 @@
 {% extends "index.html" %}
 
 {% block analytics %}
-    <title>Grand canyon of PA -- 2019</title>
-    <meta name="description" content="">
-    <meta name="author" content="mental@neverlight.com">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/img/grand-canyon-pa-2019//css/skeleton.css">
-    <link rel="stylesheet" href="/img/grand-canyon-pa-2019//css/colorbox.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/colorbox.css">
 {% endblock analytics %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
+
+{% block meta %}
+<meta name="description" content="{{ page.description | default(value=config.description) }}">
+<meta name="author" content="{{ config.extra.author }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description | default(value=config.description) }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ page.permalink }}">
+<meta property="og:site_name" content="{{ config.title }}">
+{% if page.date %}<meta property="article:published_time" content="{{ page.date }}">{% endif %}
+{% if page.taxonomies.tags %}{% for tag in page.taxonomies.tags %}<meta property="article:tag" content="{{ tag }}">{% endfor %}{% endif %}
+{% endblock meta %}
+
 {% block content %}
     <div class="container">
       <div class="three columns">

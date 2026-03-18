@@ -1,7 +1,12 @@
 +++
 title = "Moto Camping -- 2018"
+description = "A week on back roads from PA to Kinzua Skyway, Niagara Falls, Vermont, and New Hampshire. Tents on bikes, no highways."
 date = 2018-05-20
 template = "moto-camping-2018.html"
+
+[taxonomies]
+tags = ["moto-camping", "kinzua", "niagara-falls", "vermont", "new-hampshire", "back-roads"]
+categories = ["trips"]
 +++
 
 This trip started off as a joke.
