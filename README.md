@@ -32,7 +32,7 @@ Moved from DigitalOcean static hosting to Cloudflare Pages (2026-03).
 
 - **Live**: https://moto-blog.neverlight.com
 - **Pages preview**: https://moto-blog.pages.dev
-- **Deploy**: `just deploy`
+- **Deploy**: `mise run deploy` (`mise.toml` pins Zola and wrangler; `mise tasks` lists the rest)
 - **Domains**: Managed in Cloudflare (moved from Route53/S3)
 
 ### History

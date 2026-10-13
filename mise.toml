@@ -1,0 +1,32 @@
+# 0.23 changed the template engine; the theme's macros don't parse there yet.
+[tools]
+zola = "0.22.1"
+"npm:wrangler" = "4.149.0"
+
+[env]
+PAGES_PROJECT = "moto-blog"
+
+[tasks.build]
+description = "Build the site"
+run = "zola build"
+
+[tasks.serve]
+description = "Start local dev server with live reload"
+run = "zola serve --port 1112"
+
+[tasks.deploy]
+description = "Build and deploy to Cloudflare Pages"
+depends = ["build"]
+run = "mise run deploy-only"
+
+[tasks.deploy-only]
+description = "Deploy without rebuilding"
+run = 'wrangler pages deploy public/ --project-name "$PAGES_PROJECT"'
+
+[tasks.check]
+description = "Check what the live site is serving"
+run = "curl -sI https://moto-blog.neverlight.com | head -5"
+
+[tasks.deployments]
+description = "List deployments"
+run = 'wrangler pages deployment list --project-name "$PAGES_PROJECT"'
